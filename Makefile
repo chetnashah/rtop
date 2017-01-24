@@ -46,10 +46,10 @@ run_utop: build
 		                        compiler-libs.common) \
 		_build/src/reason.cma _build/src/reason_utop.cmo
 
-test: build clean-tests
-	./miscTests/rtopIntegrationTest.sh
-	./miscTests/jsxPpxTest.sh
-	cd formatTest; ./test.sh
+# test: build clean-tests
+# 	./miscTests/rtopIntegrationTest.sh
+# 	./miscTests/jsxPpxTest.sh
+# 	cd formatTest; ./test.sh
 
 clean-tests:
 	rm -rf ./formatTest/**/actual_output
