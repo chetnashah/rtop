@@ -45,7 +45,7 @@
             "val": "1.4.0"
         }
     },
-    "name": "reason",
+    "name": "rtop",
     "dependencies": {
         "@opam-alpha/ocamlfind": "*",
         "@opam-alpha/easy-format": "^ 1.2.0",
